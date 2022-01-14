@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Notes</string>
+    <string name="day_label_text">Day:</string>
+    <string name="title_hint">Title</string>
+    <string name="description_hint">Description</string>
+    <string name="button_create_text">Create</string>
+    <string name="toast_text">Both the title and description must be filled</string>
+    <string-array name="days">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+</resources>
