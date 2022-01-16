@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-                Note note = notes.get(viewHolder.getAdapterPosition());
+                Note note = adapter.getNotes().get(viewHolder.getAdapterPosition());
                 viewModel.deleteNote(note);
             }
         });
